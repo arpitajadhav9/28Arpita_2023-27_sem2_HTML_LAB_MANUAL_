@@ -1,0 +1,82 @@
+<!-- 7. Create the following table in HTML with following Data 
+for your batch:
+
+| Reg. No | Student Name | Year/Semester | Date Of Admission |
+|---------|--------------|---------------|-------------------|
+|---------|--------------|---------------|-------------------|
+|---------|--------------|---------------|-------------------|
+|---------|--------------|---------------|-------------------| -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Table</title>
+    <hr>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:nth-child(odd) {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Student Information</h2>
+    <hr>
+    <table border="1">
+        <tr>
+          <th>Reg. Number</th>
+          <th>Student Name</th>
+          <th>Year/Semester</th>
+          <th>Date of Admission</th>
+        </tr>
+        <tr>
+          <td style="background-color: #ffffe0;">001</td>
+          <td style="background-color: #ffffe0;">Sakshi Kore</td>
+          <td style="background-color: #ffffe0;">Year 1/Semester 1</td>
+          <td style="background-color: #ffffe0;">28-07-2023</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffffe0;">002</td>
+          <td style="background-color: #ffffe0;">Arpita Jadhav</td>
+          <td style="background-color: #ffffe0;">Year 1/Semester 1</td>
+          <td style="background-color: #ffffe0;">05-07-2023</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffffe0;">003</td>
+          <td style="background-color: #ffffe0;">Yashika Thakur</td>
+          <td style="background-color: #ffffe0;">Year 1/Semester 1</td>
+          <td style="background-color: #ffffe0;">17-07-2023</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffffe0;">004</td>
+          <td style="background-color: #ffffe0;">Bhagyashree Bhagat</td>
+          <td style="background-color: #ffffe0;">Year 1/Semester 1</td>
+          <td style="background-color: #ffffe0;">10-06-2023</td>
+        </tr>
+        <tr>
+          <td style="background-color: #ffffe0;">005</td>
+          <td style="background-color: #ffffe0;">Riya Singh</td>
+          <td style="background-color: #ffffe0;">Year 1/Semester 1</td>
+          <td style="background-color: #ffffe0;">22-06-2023</td>
+        </tr>
+    </table>
+</body>
+</html>
+
